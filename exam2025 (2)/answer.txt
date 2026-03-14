@@ -1,0 +1,114 @@
+試験問題解答用紙
+問題に対する解答は必ずこのファイルに記載すること．
+ソースコードファイルのみでの解答は認めない．
+
+学生番号：36714121
+氏名：堀 航輔
+
+大門1
+(ア)
+int totalhits(){
+	// コンパイル用のダミー，書き換えること
+	// 問1-ア
+	// return 0;
+        int t=0;
+        for(int i=0; i<hits.length; i++){
+            t+=hits[i];
+        }
+        return t;
+    }
+int totalbats(){
+	// コンパイル用のダミー，書き換えること
+	// 問1-ア
+	//return 0;
+        int b=0;
+        for(int i=0; i<atbat.length; i++){
+            b+=atbat[i];
+        }
+        return b;
+    }
+(イ)
+double battingAverage(){
+	// コンパイル用のダミー，書き換えること
+	// 問1-イ
+	//return 0; 
+        int t=totalhits()*1000;
+        int b=totalbats();
+        int a = t/b;
+        double a2 = a;
+        a2/=1000;
+        return a2;
+    }
+(ウ)
+private static int counter=0;
+メンバーに静的な変数counterを追加した。
+(エ)
+PlayerData(){
+	// 問1-エ
+        id = counter++;
+    }
+(オ)
+PlayerData(String name){
+	// 問1-オ
+        
+        this.name = name;
+    }
+(カ)
+PlayerData(String name, int [] atbat, int [] hits){
+	// 問1-カ
+        this(name);
+        this.atbat = atbat;
+        this.hits = hits;
+        games = atbat.length;
+    }
+(キ)
+public String toString(){
+        return(name+"(id:"+id+")の打率は"+battingAverage()+"("+totalbats()+"打数"+totalhits()+"安打)です。");
+    }
+を追加。
+(ク)
+PlayerData(PlayerData player){
+	// 問1-ク
+        PlayerData player2 = new PlayerData(player);
+        
+    }
+
+大門2
+(ア)
+interface Linkable{
+    boolean addTail(Object o){
+        list.add(o);
+    }
+    int[] getArray(){
+        int[] a = list;
+        return a[];
+    }
+}
+
+(イ)
+class LinkedPlayer extends PlayerData implements Linkable
+
+(ウ)
+実装をせずに宣言する
+class LinkedPlayer extends PlayerData
+
+(エ)
+LinkedPlayer(PlayerData player){
+        this(player);
+    }
+
+(オ)
+System.out.plint("次は")
+
+(カ)
+異なるコンストラクタを参照しているから。
+同一性
+
+(キ)
+return n;
+
+(ク)
+this.next = next;
+
+(ケ)
+getArray<Integer>

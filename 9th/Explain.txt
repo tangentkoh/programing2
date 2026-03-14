@@ -1,0 +1,78 @@
+プログラミングII 第9回レポート
+学籍番号：36714121
+氏名：堀航輔
+
+☆提出ファイル
+-9th
+  -challenge
+    -1st
+      -2nd
+        -5th.txt
+        -java.txt
+        -windows.txt
+      -3rd.txt
+      -4th.txt
+    -Makefile
+    -SearchWordRecursive
+  -kadai1
+    -FileCopy.java
+    -Makefile
+    -sample_sjis.txt
+    -sample_utf8.txt
+    -sample.jpg
+  -kadai2
+    -java.txt
+    -Makefile
+    -SearchWord.java
+  -kadai3
+    -1st
+      -2nd
+        -5th.txt
+        -java.txt
+      -3rd.txt
+      -4th.txt
+    -ListRecursive.java
+    -Makefile
+  -lesson18-2
+    -FindFile.java
+    -Makefile
+  -lesson18-3
+    -Makefile
+    -Prime1.java
+  -Explain.txt
+  -Makefile
+  -makezip.sh
+  -windows.txt
+
+☆プログラムの説明と使い方など
+18-1:自分の回答を以下に記述する。
+　　(1)x (2)o (3)o (4)x (5)o (6)x (7)x (8)x (9)o (10)x
+18-2:文字列について調べるプログラム。
+　　最初に検索文字列と検索対象ファイルを用意しておく。
+18-3:1000までの素数をファイルに出力するプログラム。
+　　基本的には教科書の物にtry-catchの判定を追加した。
+課題1:ファイルをコピーするプログラム。
+　　byte形式にすることで、画像も複製可能である。
+課題2:キーワードの位置を割り出すプログラム。
+　　完全一致していないと出力されないので注意する。
+課題3:ファイルを指定の形式で表示するプログラム。
+　　再帰呼び出しを利用することで効率的に実行する。
+チャ:ファイルの絶対パスとキーワードの前後を表示するプログラム。
+　　二つを組み合わせることで実現させた。
+
+☆考察
+今回は主に、ファイル操作と入出力について学習した。ファイルの読み込み
+や書き込みについてのインスタンスやメソッド、クラスについて理解した。
+それ以外にも、ディレクトリ関連の操作方法や、文字ストリームとバイトス
+トリームの違いについても評価した。個人的には、画像のコピーを行えたこ
+とに、一定の感動を覚えた。
+
+☆自己評価
+18-1:A
+18-2:A
+18-3:A
+課題1:A
+課題2:A
+課題3:A
+チャ:A
+ファイル操作を利用して課題を解決した。

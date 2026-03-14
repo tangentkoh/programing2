@@ -1,0 +1,49 @@
+プログラミングⅡ 第13回レポート
+学籍番号：36714121
+氏名：堀航輔
+
+☆提出ファイル
+-13th
+  -challenge
+    -Challenge.java
+    -Dijkstra2.java
+    -Graph2.java
+    -Makefile
+    -sample2.txt
+  -kadai123
+    -Dijkstra.java
+    -DijkstraTester.java
+    -Graph.java
+    -GraphTester.java
+    -Makefile
+    -PQDijkstra.java
+    -PQDijkstraTester.java
+    -sample.txt
+  -Explain.txt
+  -Makefile
+  -makezip.sh
+
+☆プログラムの説明と使い方など
+課題1:前回のグラフプログラムに重さの概念を付けた。
+　　実行しても、サンプルと一致することが分かる。
+課題2:ダイクストラ法で最短距離を導く。
+　　distanceやvisitiedを使い、グラフを探索する。
+課題3:フィロソフィを利用して最短距離を求める。
+　　KeyValueで定義して、有効化させる。
+チャ:同じ距離の経路を同時に示すダイクストラ。
+　　sample2.txtを実行することで確認できる。
+
+☆考察
+今回もアルゴリズムとデータ構造について学んだ。ここまで来ると
+Makefileとかよりも「アルゴリズム」、ここで言うダイクストラ法
+がメインになってきた。複雑なアルゴリズムをいかにしてJavaで実
+現させるかが重要である。ダイクストラだと、プライオリティキュ
+ー(ヒープ)などを活用するのがいいだろうか。あとは試験も近づい
+て来たので、対策をしなければならないだろう。
+
+☆自己評価
+課題1:A
+課題2:A
+課題3:A
+チャ:B
+今回もアルゴリズムをうまく組み立てて課題を解いた。
